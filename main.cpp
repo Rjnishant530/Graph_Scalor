@@ -78,7 +78,7 @@ int main()
                 }
             }
             for(int i=0;i<val;i++){
-                cout<<"Enter Value  ";
+                cout<<"Enter Value in the following format \" x (space) y \"  ";
                 if(ask!=true)
                 cin>>data[0][i];
                 cin>>data[1][i];
@@ -90,7 +90,8 @@ int main()
             if(minn[1]!=0){
                 extra[1]=10;
             }
-
+            
+            cout<<"The (x,y) pairs are (count of the subdivisions on the Graph Paper) :"<<endl;
             for(int i=0;i<val;i++){
                 cout<<"   "<<((data[0][i]-minn[0])/con[0])+(extra[0])<<"    ,     "<<((data[1][i]-minn[1])/con[1])+(extra[1])<<endl;
             }
