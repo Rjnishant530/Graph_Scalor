@@ -57,7 +57,7 @@ int main()
     }
     float con[]={(maxn[0]/(div[0]*10)),(maxn[1]/(div[1]*10))};
     cout<<endl<<"---------------------------"<<endl;
-    cout<<"Enter the Number of Graphs";
+    cout<<"Enter the Number of Graphs ";
     int h;
     cin>>h;
     cout<<endl<<"---------------------------"<<endl;
