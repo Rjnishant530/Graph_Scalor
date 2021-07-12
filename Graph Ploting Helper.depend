@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1553492560 source:c:\users\fictics\documents\graph ploting helper\main.cpp
+	<iostream>
+	<iomanip>
+	<math.h>
+	<cmath>
+	<iomanip>
+
+1553186809 source:c:\users\fictics\documents\graph ploting helper\main_new.cpp
+	<iostream>
+	<iomanip>
+	<math.h>
+	<cmath>
+
